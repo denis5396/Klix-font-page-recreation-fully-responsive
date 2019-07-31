@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="26px" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>logo pozitiv</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-0.000644464852%" y1="50.0002419%" x2="99.9998389%" y2="50.0002419%" id="linearGradient-1">
+            <stop stop-color="#333333" offset="0%"></stop>
+            <stop stop-color="#3F3F3F" offset="8.1%"></stop>
+            <stop stop-color="#5B5B5B" offset="31.31%"></stop>
+            <stop stop-color="#707070" offset="54.51%"></stop>
+            <stop stop-color="#7C7C7C" offset="77.49%"></stop>
+            <stop stop-color="#808080" offset="100%"></stop>
+        </linearGradient>
+        <path d="M13.6202352,5.52297743 L18.7688746,0.371428571 L24.8695652,6.45267986 L19.7095819,11.5507126 L13.6202352,5.52297743 Z M13.6264363,19.9744392 L18.7566536,25.1333333 L24.8571439,19.052082 L19.7078877,13.9381947 L13.6264363,19.9744392 Z" id="path-2"></path>
+        <path id="path-3" d="M6.16803628,25.1333333 L0,19.011547 L6.45008413,12.7122453 L0.0275610232,6.45367826 L6.15516106,0.371428571 L18.6521739,12.7419976 L6.16803628,25.1333333 L6.16803628,25.1333333 Z"></path>
+    </defs>
+    <g id="Nova-naslovna" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Wide-2-Copy-2" sketch:type="MSArtboardGroup" transform="translate(-23.000000, -17.000000)">
+            <g id="Side-bar-mali-Copy" sketch:type="MSLayerGroup">
+                <g id="bijeli">
+                    <g id="logo-pozitiv" transform="translate(23.000000, 17.000000)">
+                        <g id="Shape-Copy-2">
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                            <use fill="none" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="Shape-Copy">
+                            <use fill="none" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                            <use fill="#1CCBFB" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
