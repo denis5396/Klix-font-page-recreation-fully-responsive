@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type = "text/css" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/dcfd8e2c99.js"></script>
+    <title>Klix.ba | Saznaj više</title>
+</head>
+<body>
+    <section class="tabletclick">
+        <header>
+            <nav>
+                <ul>
+                    <li class = "burgermenu" onclick="goBack()">
+                            <button onclick="goBack()" onclick="window.location.href = './index.html';">
+                        <a href="#" onclick="goBack()"><i class="fas fa-times" onclick="goBack()"></i></a>
+                        </button>
+                    </li>
+                    <li class = "klixlogo">
+                        <a href="#"><img src="./img/klix-logo.png" alt=""></a>
+                    </li>
+                    <li class = "search" onclick= "show_hide()">
+                        <a href="#"><i class="fas fa-search"></i></a>
+                        <div id = "dzava" class="pretraga" onclick= "show_hide()">
+                            <i class="fas fa-search"></i> <input type="text" placeholder="upišite pojam pretrage..."> <i class="far fa-check-square"></i>
+                        </div>
+                    </li>
+                    <li class = "userikona">
+                        <a href="#"><i class="far fa-user"></i></a>
+                    </li>
+
+                </ul>
+            </nav> 
+        </header>
+        <div class="secnav">
+            <div class="multi-level">
+                <div class="itemy">
+                    <div class="lijevot">
+                    <div class = "kocka"></div>
+                    <span>Vijesti</span>
+                     </div>
+                    <input type="checkbox" id = "A"/>
+                    <label for="A"><i class="fas fa-chevron-down"></i></label>
+                    <ul class = "vijestiulx">
+                        <li><a href="#">Najnovije</a></li>
+                        <li><a href="#">BiH</a></li>
+                        <li><a href="#">Regija</a></li>
+                        <li><a href="#">Svijet</a></li>
+                        <li><a href="#">Crna hronika</a></li>
+                        <li><a href="#">EU integracije</a></li>
+                        <li><a href="#">Humanitarne akcije</a></li>
+                        <li><a href="#">Lokalne vijesti</a></li>
+                    </ul>
+                </div>
+                <div class="itemy">
+                    <div class="lijevot">
+                    <div class = "kocka0"></div>
+                    <span>Biznis</span>
+                    </div>
+                    <input type="checkbox" id = "B"/>
+                    <label for="B"><i class="fas fa-chevron-down"></i></label>
+                    <ul class = "vijestiulx">
+                        <li><a href="#">Privreda</a></li>
+                        <li><a href="#">Finansije</a></li>
+                        <li><a href="#">Investicije</a></li>
+                        <li><a href="#">Smart Cash</a></li>
+                        <li><a href="#">Berza</a></li>
+                        <li><a href="#">Startupi</a></li>
+                        <li><a href="#">Posao</a></li>
+                    </ul>
+                </div>
+                <div class="itemy">
+                    <div class="lijevot">
+                    <div class = "kocka1"></div>
+                    <span>Sport</span>
+                    </div>
+                    <input type="checkbox" id = "C"/>
+                    <label for="C"><i class="fas fa-chevron-down"></i></label>
+                    <ul class = "vijestiulx">
+                        <li><a href="#">Nogomet</a></li>
+                        <li><a href="#">Košarka</a></li>
+                        <li><a href="#">Tenis</a></li>
+                        <li><a href="#">Rukomet</a></li>
+                        <li><a href="#">Formula 1</a></li>
+                        <li><a href="#">Skijanje</a></li>
+                        <li><a href="#">Atletika</a></li>
+                        <li><a href="#">Borilački sportovi</a></li>
+                    </ul>
+                </div>
+                <div class="itemy">
+                    <div class="lijevot">
+                    <div class = "kocka2"></div>
+                    <span>Magazin</span>
+                    </div>
+                    <input type="checkbox" id = "D"/>
+                    <label for="D"><i class="fas fa-chevron-down"></i></label>
+                    <ul class = "vijestiulx">
+                        <li><a href="#">Kultura</a></li>
+                        <li><a href="#">Muzika</a></li>
+                        <li><a href="#">Film/TV</a></li>
+                        <li><a href="#">Showbiz</a></li>
+                        <li><a href="#">Ljepotice</a></li>
+                        <li><a href="#">Zanimljivosti</a></li>
+                    </ul>
+                </div>
+                <div class="itemy">
+                    <div class="lijevot">
+                    <div class = "kocka3"></div>
+                    <span>Lifestyle</span>
+                    </div>
+                    <input type="checkbox" id = "E"/>
+                    <label for="E"><i class="fas fa-chevron-down"></i></label>
+                    <ul class = "vijestiulx">
+                        <li><a class = "jedig" href="#">Moda i ljepota</a></li>
+                        <li><a href="#">Zdravlje</a></li>
+                        <li><a href="#">Veze i seks</a></li>
+                        <li><a href="#">Gastro</a></li>
+                        <li><a href="#">Kuća i ured</a></li>
+                        <li><a href="#">Putovanja</a></li>
+                        <li><a href="#">Bebe</a></li>
+                        <li><a href="#">Fitness</a></li>
+                    </ul>
+                </div>
+                <div class="itemy">
+                    <div class="lijevot">
+                    <div class = "kocka4"></div>
+                    <span>Scitech</span>
+                    </div>
+                    <input type="checkbox" id = "F"/>
+                    <label for="F"><i class="fas fa-chevron-down"></i></label>
+                    <ul class = "vijestiulx">
+                        <li><a href="#">Nauka</a></li>
+                        <li><a href="#">Tehnologija</a></li>
+                    </ul>
+                </div>
+                <div class="itemy">
+                    <div class="lijevot">
+                    <div class = "kocka5"></div>
+                    <span>Auto</span>
+                    </div>
+                    <input type="checkbox" id = "G"/>
+                    <label for="G"><i class="fas fa-chevron-down"></i></label>
+                    <ul class = "vijestiulx">
+                        <li><a href="#">Testovi</a></li>
+                        <li><a href="#">Noviteti</a></li>
+                        <li><a href="#">Koncepti</a></li>
+                        <li><a href="#">Tuning</a></li>
+                    </ul>
+                </div>
+                <div class="itemy itemy2">
+                    <i class="fas fa-edit"></i>
+                    <span>&nbsp;&nbsp;Dojavi vijest</span>
+                </div>
+                <div class="itemy">
+                    <div class="lijevot">
+                    <div class = "kocka6"></div>
+                    <span>Više</span>
+                    </div>
+                    <input type="checkbox" id = "H"/>
+                    <label for="H"><i class="fas fa-chevron-down"></i></label>
+                    <ul class = "vijestiulx">
+                        <li><a href="#">Vremenska prognoza</a></li>
+                        <li><a href="#">TV program</a></li>
+                        <li><a href="#">Stanje na putevima</a></li>
+                        <li><a href="#">Kursna lista</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Impressum</a></li>
+                        <li><a href="#">Posao</a></li>
+                        <li><a href="#">O nama</a></li>
+                        <li><a href="#">Pravila privatnosti</a></li>
+                        <li><a href="#">Postavke privatnosti</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="itemy itemyx">
+                    <i class="fas fa-hashtag"></i>
+                    <span>Križaljka</span>
+                </div>
+                <div class="itemy itemyx">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <span>Forum</span>
+                </div>
+                <div class="itemy itemyx">
+                    <i class="fas fa-tv"></i>
+                    <span>TV program</span>
+                </div>
+                <div class="itemy itemyx">
+                    <div class = "kocka6"></div>
+                    <span>Vremenska prognoza</span>
+                </div>
+                <div class="itemy itemyx">
+                    <div class = "kocka6"></div>
+                    <span>Stanje na putevima</span>
+                </div>
+                <div class="itemy itemyx">
+                    <div class = "kocka6 itemyx"></div>
+                    <span>Kursna lista</span>
+                </div>
+                <div class="itemy itemyx">
+                    <div class = "kocka6"></div>
+                    <span>Marketing</span>
+                </div>
+                <div class="itemy itemyx">
+                    <div class = "kocka6"></div>
+                    <span>Impressum</span>
+                </div>
+                <div class="itemy itemyx">
+                    <div class = "kocka6"></div>
+                    <span>Posao</span>
+                </div>
+                <div class="itemy itemyx">
+                    <div class = "kocka6"></div>
+                    <span>O nama</span>
+                </div>
+                <div class="itemy itemyx">
+                    <div class = "kocka6"></div>
+                    <span>Kontakt</span>
+                </div>
+            </div>
+        </div>
+               
+    </section>
+</body>
+<script>
+        src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+            function show_hide(){
+                var click = document.getElementById("dzava")
+                if(click.style.display === "none"){
+                    click.style.display = "grid"
+                }
+                else{
+                    click.style.display = "none";
+                }
+            }
+        </script>
+   <script>
+        function goBack() {
+          window.history.back();
+        }
+        </script>
+</html>
